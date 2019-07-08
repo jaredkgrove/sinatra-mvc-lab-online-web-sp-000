@@ -14,7 +14,8 @@ attr_reader :english_text, :pig_latin_text
   def pig_latinize(word)
       letter_array = word.split('')
       until is_vowel?(letter_array[0])
-        is_vowel?(letter)
+        letter_array << letter_array[0]
+        letter_array.shift
       end
   end
 
