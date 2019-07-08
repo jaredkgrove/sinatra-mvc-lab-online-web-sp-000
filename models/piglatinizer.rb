@@ -1,9 +1,5 @@
 class PigLatinizer
-attr_reader :english_text, :pig_latin_text
-  def initialize(english_text)
-    @english_text = english_text
-  end
-
+attr_reader :pig_latin_text
   def pig_latin_text
     word_array = @english_text.split(" ")
     word_array.collect do |word|
