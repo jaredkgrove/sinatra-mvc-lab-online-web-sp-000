@@ -9,7 +9,7 @@ attr_reader :english_text, :pig_latin_text
     word_array = @english_text.split(" ")
     word_array.each do |word|
       word.split("").collect do |letter|
-        
+
       end
     end
   end
