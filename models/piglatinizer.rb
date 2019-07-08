@@ -13,7 +13,7 @@ attr_reader :english_text, :pig_latin_text
 
   def pig_latinize(word)
       letter_array = word.split('')
-      until is_vowel?()
+      until is_vowel?(letter)
         is_vowel?(letter)
       end
   end
