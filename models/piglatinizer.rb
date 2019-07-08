@@ -17,6 +17,7 @@ attr_reader :english_text, :pig_latin_text
         letter_array << letter_array[0]
         letter_array.shift
       end
+      letter_array.join("") + "ay"
   end
 
   def is_vowel?(letter)
