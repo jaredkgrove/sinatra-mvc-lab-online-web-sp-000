@@ -12,16 +12,13 @@ attr_reader :english_text, :pig_latin_text
   end
 
   def pig_latinize(word)
-    if starts_with_vowel(word)
-      word + "way"
-    else
-      word.split('').each do |letter|
-
+      letter_array = word.split('')
+      until is_vowel?()
+        is_vowel?(letter)
       end
-    end
   end
 
-  def is_vowel?(word)
-    word =~ /[aeiou]/
+  def is_vowel?(letter)
+    letter =~ /[aeiou]/
   end
 end
