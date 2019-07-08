@@ -6,6 +6,6 @@ attr_reader :english_text, :pig_latin_text
   end
 
   def pig_latinize
-
+    
   end
 end
