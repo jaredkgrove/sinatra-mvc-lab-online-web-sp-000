@@ -16,7 +16,7 @@ attr_reader :english_text, :pig_latin_text
       if is_vowel?(letter_array[0]
         letter_array.join("") + "way"
       else
-        until is_vowel?(letter_array[0])
+        until is_vowel?(letter_array[0]) do
           letter_array << letter_array[0]
           letter_array.shift
         end
