@@ -8,7 +8,7 @@ attr_reader :english_text, :pig_latin_text
     word_array = @english_text.split(" ")
     word_array.collect do |word|
       pig_latinize(word)
-    end
+    end.join(" ")
   end
 
   def pig_latinize(word)
