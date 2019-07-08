@@ -6,6 +6,7 @@ attr_reader :english_text, :pig_latin_text
   end
 
   def pig_latinize
-
+    word_array = @english_text.split(" ")
+    
   end
 end
