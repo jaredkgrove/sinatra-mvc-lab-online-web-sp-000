@@ -13,4 +13,7 @@ attr_reader :english_text, :pig_latin_text
     end
   end
 
+  def starts_with_vowel?(word)
+    word =~ /[aeiou]/
+  end
 end
