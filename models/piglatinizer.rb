@@ -19,6 +19,6 @@ attr_reader :english_text, :pig_latin_text
   end
 
   def is_vowel?(letter)
-    letter =~ /[aeiou]/
+    letter.downcase =~ /[aeiou]/
   end
 end
