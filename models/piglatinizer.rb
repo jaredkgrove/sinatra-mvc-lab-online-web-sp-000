@@ -13,9 +13,9 @@ attr_reader :english_text, :pig_latin_text
 
   def pig_latinize(word)
     if starts_with_vowel(word)
-      
+
     else
-       
+
     end
   end
 
