@@ -7,7 +7,7 @@ class PigLatinizer
     end.join(" ")
   end
 
-  def pig_latinize(word)
+  def pig_latinize_word(word)
       letter_array = word.split('')
       if is_vowel?(letter_array[0])
         letter_array.join("") + "way"
