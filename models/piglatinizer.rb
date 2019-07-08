@@ -1,7 +1,7 @@
 class PigLatinizer
 attr_reader :pig_latin_text
   def pig_latin_text=(str)
-    word_array = @english_text.split(" ")
+    word_array = @str.split(" ")
     word_array.collect do |word|
       pig_latinize(word)
     end.join(" ")
