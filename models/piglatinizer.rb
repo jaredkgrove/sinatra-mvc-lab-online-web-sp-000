@@ -3,7 +3,7 @@ class PigLatinizer
   def piglatinize(str)
     word_array = str.split(" ")
     word_array.collect do |word|
-      pig_latinize(word)
+      pig_latinize_word(word)
     end.join(" ")
   end
 
