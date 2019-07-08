@@ -15,11 +15,13 @@ attr_reader :english_text, :pig_latin_text
     if starts_with_vowel(word)
       word + "way"
     else
+      word.split('').each do |letter|
 
+      end
     end
   end
 
-  def starts_with_vowel?(word)
+  def is_vowel?(word)
     word =~ /[aeiou]/
   end
 end
