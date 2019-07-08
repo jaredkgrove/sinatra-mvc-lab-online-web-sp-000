@@ -14,7 +14,7 @@ attr_reader :english_text, :pig_latin_text
   def pig_latinize(word)
     if starts_with_vowel(word)
       pig_latin_word = word
-      word.split("").each 
+      word.split("").each
     else
 
     end
